@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FittPlus</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <!-- popping-font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Syne:wght@400;500;600;700;800&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Cousine:ital,wght@0,400;0,700;1,400&family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Lobster&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Playball&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <!-- syne -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Syne:wght@400;500;600;700;800&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+    <!-- header -->
+    <div include-html="header.html" id="header-file"></div>
+    <!-- hero -->
+    <div class="container-fluid hero-bg2">
+        <h6>Welcome To</h6>
+        <h2>Fittplus Fitness<br>
+            Studio.</h2>
+    </div>
+    <!-- about -->
+    <div class="container-fluid about-bg py-5">
+        <div class="container py-5">
+            <div class="row m-0">
+                <div class="col-lg-6 sec-abhome">
+                    <h5>ABOUT</h5>
+                    <a href="index.html"><img class="img-fluid" src="images/logo.png" alt=""></a>
+                    <p class="pt-3">FITT Plus comes in the origin by dreaming of two fitness enthusiast Mr. Palash
+                        Biswas and Ms Tilu
+                        Jain who are the Founder Director’s and named their Dream as FITT PLUS , its comes from  F I T
+                        T  Principle (or formula) is a great way of monitoring your exercise program. The acronym FITT
+                        outlines the key components, or training guidelines, for an effective exercise program, and the
+                        initials F, I, T, T, stand for: Frequency, Intensity, Time and Type.</p>
+                    <p class="m-0"><a class="sec-abtn" href="#">Join Now</a>
+                        <hr class="sec-hr3">
+                    </p>
+                </div>
+                <div class="col-lg-6 img-marg2">
+                    <img class="img-fluid mb-n5" src="images/picture area.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- row -->
+    <div class="container-fluid se-padd">
+        <div class="container">
+            <div class="row m-0">
+                <div class="col-lg-6">
+                    <img class="img-fluid" src="images/unnamed 1.png" alt="">
+                </div>
+                <div class="col-lg-6 text-fre">
+                    <p><b>Frequency:</b> Refers to the frequency of exercise undertaken or how often you exercise.</p>
+                    <p><b>Intensity: </b> Refers to the intensity of exercise undertaken or how hard you exercise.</p>
+                    <p><b>Time:</b> Refers to the time you spend exercising or how long you exercise for.</p>
+                    <p><b>Type:</b> Refers to the type of exercise undertaken or what kind of exercise you do.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Our Vision & Mission -->
+    <div class="container-fluid bg-our">
+        <div class="container">
+            <div class="row m-0">
+                <div class="col-lg-6">
+                    <h1 class="our-h">Our Vision &<br> Mission</h1>
+                </div>
+                <div class="col-lg-6">
+                    <p class="our-p">Our vision & mission is to helping people to achieve their fitness goals with
+                        education based
+                        training and create a fit society surrounding us.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Founder Director’s -->
+    <div class="container-fluid founder-bg ">
+        <div class="container">
+            <h2>Founder <br>Director’s</h2>
+            <!-- slider -->
+            <div class="owl-carousel two-slider owl-theme " id="slider2">
+                <div class="item">
+                    <div class="row m-0 m-0 slider-flex">
+                        <div class="col-lg-6 slider-text">
+                            <h5>Tilu Jain</h5>
+                            <h6>Director</h6>
+                            <p>Tilu Jain ( B Com Graduate) is Home maker and has spent  consistent 10 years in her
+                                fitness journey. FiTT Plus  is an outcome of her dream .Being a Fitness enthusiast  she
+                                believe that every person comes to fitness club having different genetics, food habits,
+                                lifestyle and age group ; but goal is same to become fit, So her concern is to giving a
+                                place which is  completely suitable , safe and secure as per modern fitness needs.</p>
+                        </div>
+                        <div class="col-lg-6">
+                            <img class="img-fluid" src="images/slid2.1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="row m-0 m-0 slider-flex">
+                        <div class="col-lg-6 slider-text">
+                            <h5>Palash Biswas</h5>
+                            <h6>Director</h6>
+                            <p>Palash Biswas (Masters of Business Administration) 18 Years of progressive experience in
+                                as Stock Broker, Educationist and Business Consultant, severed 10+ years in Corporate
+                                sector in senior management. As a Fitness Enthusiast he moulds his passion, Knowledge
+                                and dream into the Fitness business to give a perfect solution to the people who are
+                                looking into their mental, emotional and physical fitness.</p>
+                        </div>
+                        <div class="col-lg-6">
+                            <img class="img-fluid" src="images/slid2.2.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <h1>Founders</h1>
+    </div>
+    <!-- number -->
+    <div class="container-fluid nuber-bg">
+        <h2>WHY US</h2>
+        <p>We are not just providing a very well designed gym, we provide S O L U T I O N S. Our Qualified, Experienced
+            & Professional dedicated T E A M  will work for meet your fitness expectations.</p>
+        <h1>Process</h1>
+        <div class="d-flex mar-number">
+            <div class="number-img">
+                <img class="img-fluid px-4" src="images/L1.png" alt="">
+            </div>
+            <div class="number-img">
+                <img class="img-fluid px-4" src="images/L2.png" alt="">
+            </div>
+            <div class="number-img">
+                <img class="img-fluid px-4" src="images/L3.png" alt="">
+            </div>
+            <div class="number-img">
+                <img class="img-fluid px-4" src="images/L4.png" alt="">
+            </div>
+            <div class="number-img">
+                <img class="img-fluid px-4" src="images/L5.png" alt="">
+            </div>
+        </div>
+    </div>
+ <!-- Success Stories -->
+ <div class="container pt-5">
+    <div class="sec-space-left-right">
+        <div class="train-bg text-center">
+            <h1>Success Stories</h1>
+        </div>
+        <!-- slider -->
+        <div class="owl-carousel for-slider owl-theme py-5   main-slider" id="selider3">
+            <div class="item">
+                <div class="sec-ss">
+                    <div class="row m-0 m-0">
+                        <div class="col col-sm-3">
+                            <img src="images/r-1.png" alt="">
+                        </div>
+                        <div class="col col-sm-9">
+                            <h4 class="sec-name-re">EHSAN ALI</h4>
+                            <h6>a month ago</h6>
+                        </div>
+                    </div>
+                    <div class="row m-0 m-0">
+                        <div class="col-lg-3">
+                            <h1>"</h1>
+                        </div>
+                        <div class="col-lg-9">
+                            <p class="sec-post-re2">It is a long established fact that a reader will be distra cted
+                                by the readable content of a page when looking at its layout. The point of using
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="sec-ss">
+                    <div class="row m-0 m-0">
+                        <div class="col col-sm-3">
+                            <img src="images/r-2.png" alt="">
+                        </div>
+                        <div class="col col-sm-9">
+                            <h4 class="sec-name-re">sHAN kARMAKAR</h4>
+                            <h6>a day ago</h6>
+                        </div>
+                    </div>
+                    <div class="row m-0 m-0">
+                        <div class="col-lg-3">
+                            <h1>"</h1>
+                        </div>
+                        <div class="col-lg-9">
+                            <p class="sec-post-re2">It is a long established fact that a reader will be distra cted
+                                by the readable content of a page when looking at its layout. The point of using
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="sec-ss">
+                    <div class="row m-0 m-0">
+                        <div class="col col-sm-3">
+                            <img src="images/r-3.png" alt="">
+                        </div>
+                        <div class="col col-sm-9">
+                            <h4 class="sec-name-re">rAHUL gHOSH</h4>
+                            <h6>2 month ago</h6>
+                        </div>
+                    </div>
+                    <div class="row m-0 m-0">
+                        <div class="col-lg-3">
+                            <h1>"</h1>
+                        </div>
+                        <div class="col-lg-9">
+                            <p class="sec-post-re2">It is a long established fact that a reader will be distra cted
+                                by the readable content of a page when looking at its layout. The point of using
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="sec-ss">
+                    <div class="row m-0 m-0">
+                        <div class="col col-sm-3">
+                            <img src="images/r-1.png" alt="">
+                        </div>
+                        <div class="col col-sm-9">
+                            <h4 class="sec-name-re">EHSAN ALI</h4>
+                            <h6>a month ago</h6>
+                        </div>
+                    </div>
+                    <div class="row m-0 m-0">
+                        <div class="col-lg-3">
+                            <h1>"</h1>
+                        </div>
+                        <div class="col-lg-9">
+                            <p class="sec-post-re2">It is a long established fact that a reader will be distra cted
+                                by the readable content of a page when looking at its layout. The point of using
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+    <!-- footer -->
+    <div include-html="footer.html" id="footer-file"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/owl.carousel.min.js" type="text/javascript"></script>
+    <script src="js/include-html.min.js"></script>
+    <script>
+       $('.owl-carousel.for-slider').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: false,
+            dote: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 1
+                },
+                1000: {
+                    items: 3
+                }
+            }
+        })
+
+      
+      
+      
+      
+      
+      $('.owl-carousel.two-slider').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 1
+                },
+                1000: {
+                    items: 1
+                }
+            }
+        })
+    </script>
+</body>
+
+</html>
