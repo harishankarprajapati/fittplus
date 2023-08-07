@@ -164,7 +164,7 @@ a.nav-link.px-4.text-light {
   background: #0D141E;
   padding: 40px 0px 0px 0px;
 }
-.hero-bg2 h2 {
+.hero-bg2 h2 , .hero-bg2 h4 {
   font-size: 50px;
   line-height: 121%;
 }
@@ -185,6 +185,7 @@ a.nav-link.px-4.text-light {
 .activ-bg p {
   width: 100%;
   margin: auto;
+  padding: 0px 5px;
 }
 .work-h {
   color: #FFF;
@@ -201,5 +202,12 @@ a.nav-link.px-4.text-light {
 .sec-padd-our {
   padding: 40px 0px;
 }
+table.table {
+  width: 100%;
+  margin: auto;
+}
+.courses-bg h2 {
+  font-size: 30px;
 
+}
 }

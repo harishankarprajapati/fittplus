@@ -305,7 +305,8 @@ a.nav-link.px-4.text-light {
     background: #000;
     padding: 15px 30px;
 }
-.sec-ss h4{
+
+.sec-ss h4 {
     color: #000;
     font-size: 25px;
     font-style: normal;
@@ -313,21 +314,24 @@ a.nav-link.px-4.text-light {
     line-height: normal;
     text-transform: capitalize;
 }
-.sec-ss h6{
+
+.sec-ss h6 {
     color: #6F6F6F;
     font-family: 'Roboto';
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 150%; 
+    line-height: 150%;
 }
-.sec-ss p{
+
+.sec-ss p {
     color: #000;
     font-style: normal;
     font-weight: 400;
-    line-height: 150%; 
+    line-height: 150%;
 }
-.sec-ss h1{
+
+.sec-ss h1 {
     color: #C50;
     text-align: center;
     font-family: 'Syne';
@@ -337,59 +341,69 @@ a.nav-link.px-4.text-light {
     line-height: normal;
     text-transform: capitalize;
 }
-.footer-bg{
+
+.footer-bg {
     background: #0D141E;
     padding: 80px 0px 0px 0px;
 }
-.soci-l{
+
+.soci-l {
     color: var(--white, #FFF);
-font-family: 'Roboto';
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
-.sec-icon-footer{
+
+.sec-icon-footer {
     color: #fff;
     font-size: 25px;
 }
-.links-add P{
+
+.links-add P {
     display: flex;
 }
-.links-add i{
+
+.links-add i {
     color: #fff;
     font-size: 25px;
 }
-.links-add a{
+
+.links-add a {
     color: var(--white, #FFF);
-font-family: 'Roboto';
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
 }
-.footer-menu{
+
+.footer-menu {
     display: flex;
     justify-content: space-between;
 }
-.footer-menu p a{
+
+.footer-menu p a {
     color: var(--white, #FFF);
-font-family: 'Roboto';
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-text-transform: uppercase;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
 }
-.colpy-right{
+
+.colpy-right {
     color: var(--white, #FFF);
-text-align: right;
-font-family: 'Roboto';
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+    text-align: right;
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
-.hero-bg2{
+
+.hero-bg2 {
     background-image: url(../images/about-bgg.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -397,7 +411,8 @@ line-height: normal;
     padding: 190px 40px 100px 40px;
     margin-top: -140px;
 }
-.hero-bg2 h6{
+
+.hero-bg2 h6 {
     color: #C50;
     font-size: 22px;
     font-style: normal;
@@ -405,7 +420,8 @@ line-height: normal;
     line-height: normal;
     text-transform: uppercase;
 }
-.hero-bg2 h2{
+
+.hero-bg2 h2 {
     color: #FFF;
     font-family: 'DCC-Ash';
     font-size: 100px;
@@ -414,27 +430,33 @@ line-height: normal;
     line-height: 89%;
     text-transform: uppercase;
 }
-.img-marg2{
+
+.img-marg2 {
     margin-top: -250px;
 }
-.sec-hr3{
+
+.sec-hr3 {
     opacity: 1 !important;
     background: #C50;
     height: 10px;
     width: 93px;
     margin: 0px;
 }
-.se-padd{
+
+.se-padd {
     padding: 60px 0px;
 }
-.text-fre p{
+
+.text-fre p {
     font-size: 25px;
 }
-.bg-our{
-    background:#25201B;
+
+.bg-our {
+    background: #25201B;
     padding: 60px 0px;
 }
-.our-h{
+
+.our-h {
     color: #FFF;
     font-size: 50px;
     font-style: normal;
@@ -442,14 +464,16 @@ line-height: normal;
     line-height: 54px;
     text-transform: uppercase;
 }
-.our-p{
+
+.our-p {
     color: #FFF;
     font-family: 'Roboto';
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
 }
-.nuber-bg h2{
+
+.nuber-bg h2 {
     color: #FFF;
     text-align: center;
     font-size: 70px;
@@ -458,106 +482,180 @@ line-height: normal;
     line-height: 54px;
     text-transform: uppercase;
     position: relative;
-z-index: 999;
-padding-top: 50px;
+    z-index: 999;
+    padding-top: 50px;
 }
-.nuber-bg p{
+
+.nuber-bg p {
     color: #FFF;
-text-align: center;
-font-size: 18px;
-font-style: normal;
-width: 65%;
-margin: auto;
-margin-bottom: -150px;
-position: relative;
-z-index: 999;
-font-weight: 400;
-line-height: 190%; 
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    width: 65%;
+    margin: auto;
+    margin-bottom: -150px;
+    position: relative;
+    z-index: 999;
+    font-weight: 400;
+    line-height: 190%;
 }
-.activ-bg{
+
+.activ-bg {
     background: #0D141E;
     padding: 40px 0px;
 }
-.activ-bg p{
+
+.activ-bg p {
     color: #FFF;
-text-align: center;
-font-family: 'Roboto';
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: 40px;
-width: 65%;
-margin: auto;
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    width: 65%;
+    margin: auto;
 }
-.activ-bg .row{
+
+.activ-bg .row {
     padding-top: 130px;
 }
-.img-sli h3{
+
+.img-sli h3 {
     background: #1B2027;
     padding: 15px 20px;
     color: #FFF;
-font-size: 30px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-margin-bottom: 50px;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 50px;
 }
-.sec-mar-min{
+
+.sec-mar-min {
     margin-top: -80px;
 }
-.bg-work{
+
+.bg-work {
     background-image: url(../images/work-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 60px 10px;
 }
-.work-h{
+
+.work-h {
     color: #FFF;
-text-shadow: 0px 0px 15px #000;
-font-size: 60px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+    text-shadow: 0px 0px 15px #000;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
-.bg-work .row{
+
+.bg-work .row {
     padding-top: 0px;
 }
-.sec-padd-our{
+
+.sec-padd-our {
     padding: 80px 0px;
 }
-.sec-padd-our h2{
+
+.sec-padd-our h2 {
     color: #000;
     font-size: 50px;
     font-style: normal;
     font-weight: 700;
-    line-height: 54px; 
+    line-height: 54px;
     text-transform: uppercase;
 }
-.sec-padd-our ul li{
+
+.sec-padd-our ul li {
     color: #000;
-font-family: 'Roboto';
-font-size: 25px;
-font-style: normal;
-font-weight: 700;
-line-height: 63.5px;
+    font-family: 'Roboto';
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 63.5px;
 }
-.price-bg2 , .price-bg5 {
+
+.price-bg2,
+.price-bg5 {
     background: #0D141E;
     padding: 80px 0px;
 }
-.price-bg2 h1 , .price-bg5 h1 {
+
+.price-bg2 h1,
+.price-bg5 h1 {
     color: #FFF;
     font-size: 50px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
 }
-.pack-p{
+
+.pack-p {
     color: #FFF;
-text-align: center;
-font-family: 'Roboto';
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: 40px; 
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.hero-bg2 h4 {
+    color: #C50;
+    font-family: 'DCC-Ash';
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 89%;
+    text-transform: uppercase;
+}
+
+th {
+    color: #fff !important;
+    background: #C50 !important;
+}
+
+.courses-bg {
+    padding: 60px 0px;
+}
+
+.courses-bg h2 {
+    color: #0D141E;
+    text-align: center;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+td {
+    background: #D9D9D9 !important;
+}
+
+.bener-bg {
+    background-image: url(../images/hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px;
+    background-position: bottom;
+}
+
+.benefit-bg h4 {
+    color: #FFF;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.benefit-bg ol li {
+    color: #FFF;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
 }
