@@ -920,3 +920,12 @@ textarea#validationTextarea {
     background-size: cover;
     padding: 80px 0px;
 }
+ul.dropdown-menu.show {
+    border-radius: 0px;
+    border: 1px solid #c50;
+}
+.sec-enquiry{
+    padding-top: 80px;
+    width: 70%;
+    margin: auto;
+}

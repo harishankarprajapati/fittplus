@@ -6,6 +6,82 @@
     width: 1720px;
   }
 }
+@media only screen and (max-width:1024px) {
+
+  .nuber-bg h1 {
+    font-size: 300px;
+  }
+  .founder-bg h1 {
+    font-size: 280px;
+  }
+  a.navbar-brand {
+    width: 25% !important;
+    flex-shrink: 0;
+}
+.sec-logo-img {
+  min-width: 43% !important;
+  max-width: none !important;
+  width: 100%;
+}
+a.nav-link.px-4.text-light , a.nav-link.dropdown-toggle.text-light{
+  font-size: 13px;
+  padding: 10px 6px !important;
+}
+#selider1 button.owl-prev {
+  margin-left: -55px;
+  width: 60px;
+  height: 87px;
+}
+#selider1 button.owl-next {
+  margin-right: -44px;
+  width: 60px;
+  height: 87px;
+}
+.price-text h5 {
+  font-size: 40px;
+}
+.price-text {
+  padding: 10px !important;
+}
+.price-text p {
+  font-size: 16px;
+}
+.sec-ss h4 {
+  font-size: 19px;
+}
+.text-fre p {
+  font-size: 20px;
+}
+.slider-text p {
+  font-size: 16px;
+}
+.hero-bg2 h2, .hero-bg2-1 h2, .hero-bg2-2 h2, .hero-bg2-3 h2, .hero-bg2-4 h2, .hero-bg2-5 h2, .hero-bg2-6 h2, .hero-bg2-7 h2 {
+  font-size: 80px;
+}
+.work-h {
+  font-size: 40px;
+}
+.img-sli h3 {
+  font-size: 20px;
+}
+.sec-padd-our ul li {
+  font-size: 20px;
+  line-height: 42.5px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media only screen and (max-width:767px) {
 
@@ -90,7 +166,7 @@
   margin-top: -160px;
 }
 a.navbar-brand {
-  width: 66%;
+  width: 66% !important;
 }
 button.navbar-toggler {
   background: #ffff;
@@ -252,5 +328,10 @@ table.table {
 .d-flex {
   display: flex!important;
   flex-direction: column;
+}
+.sec-enquiry{
+  padding-top: 40px;
+  width: 100%;
+  margin: auto;
 }
 }
