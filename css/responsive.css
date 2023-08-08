@@ -210,4 +210,31 @@ table.table {
   font-size: 30px;
 
 }
+.scop-margin{
+  margin-top: 0px;
+}
+.scop-text h2 {
+  font-size: 25px;
+}
+.scop-text p {
+  font-size: 18px;
+}
+.module-bg h2 {
+  font-size: 30px;
+}
+.test-text h3 {
+  font-size: 20px;
+  padding-top: 20px;
+}
+.test-text h3 i {
+  font-size: 20px;
+  padding: 8px 9px;
+}
+.text-testmon {
+  font-size: 18px;
+  line-height: 30px;
+}
+.test-bg {
+  padding: 40px 0px;
+}
 }
