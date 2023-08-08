@@ -592,7 +592,7 @@ a.nav-link.px-4.text-light {
 }
 
 .price-bg2 h1,
-.price-bg5 h1 {
+.price-bg5 h1 , .price-bg52 h1 {
     color: #FFF;
     font-size: 50px;
     font-style: normal;
@@ -913,4 +913,10 @@ textarea#validationTextarea {
     background-position: center;
     padding: 190px 40px 100px 40px;
     margin-top: -140px;
+}
+.price-bg52 {
+    background-image: url(../images/saving-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 0px;
 }
