@@ -85,7 +85,7 @@
   font-size: 11px;
   border-radius: 0px !important;
 }
-.hero-bg , .hero-bg2 {
+.hero-bg , .hero-bg2 , .hero-bg2-1 , .hero-bg2-2 , .hero-bg2-3 , .hero-bg2-4 , .hero-bg2-5 , .hero-bg2-6 , .hero-bg2-7{
   padding: 190px 10px 85px 10px;
   margin-top: -160px;
 }
@@ -147,9 +147,7 @@ a.nav-link.px-4.text-light {
   font-family: 'Syne';
   font-size: 36px;
 }
-.main-slider .owl-nav {
-  display: none;
-}
+
 .links-add a {
   font-size: 14px;
 }
@@ -164,7 +162,13 @@ a.nav-link.px-4.text-light {
   background: #0D141E;
   padding: 40px 0px 0px 0px;
 }
-.hero-bg2 h2 , .hero-bg2 h4 {
+.hero-bg2 h2 , .hero-bg2 h4 , .hero-bg2-1 h2,
+.hero-bg2-2 h2,
+.hero-bg2-3 h2,
+.hero-bg2-4 h2,
+.hero-bg2-5 h2,
+.hero-bg2-6 h2,
+.hero-bg2-7 h2 ,   .hero-bg2-4 h4 {
   font-size: 50px;
   line-height: 121%;
 }
@@ -236,5 +240,12 @@ table.table {
 }
 .test-bg {
   padding: 40px 0px;
+}
+.us-bg h3 {
+  font-size: 30px;
+}
+.all-map {
+  display: flex;
+  flex-direction: column;
 }
 }

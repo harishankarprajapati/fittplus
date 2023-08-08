@@ -421,7 +421,14 @@ a.nav-link.px-4.text-light {
     text-transform: uppercase;
 }
 
-.hero-bg2 h2 {
+.hero-bg2 h2,
+.hero-bg2-1 h2,
+.hero-bg2-2 h2,
+.hero-bg2-3 h2,
+.hero-bg2-4 h2,
+.hero-bg2-5 h2,
+.hero-bg2-6 h2,
+.hero-bg2-7 h2 {
     color: #FFF;
     font-family: 'DCC-Ash';
     font-size: 100px;
@@ -603,7 +610,7 @@ a.nav-link.px-4.text-light {
     line-height: 40px;
 }
 
-.hero-bg2 h4 {
+.hero-bg2 h4 ,  .hero-bg2-4 h4{
     color: #C50;
     font-family: 'DCC-Ash';
     font-size: 100px;
@@ -757,19 +764,153 @@ td {
     line-height: 40px;
     padding-top: 10px;
 }
-.touch-text h3{
+
+.touch-text h3 {
     color: #1D3656;
-font-family: 'Roboto';
-font-size: 40px;
-font-style: normal;
-font-weight: 700;
-line-height: 134.406%;
+    font-family: 'Roboto';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 134.406%;
 }
-.touch-text p{
+
+.touch-text p {
     color: #000;
     font-family: 'Roboto';
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 35px;
+}
+
+input {
+    border: 1px solid #D9D9D9 !important;
+    background: #F8F8F8 !important;
+    border-radius: 0PX !important;
+}
+
+textarea#validationTextarea {
+    border: 1px solid #D9D9D9 !important;
+    background: #F8F8F8 !important;
+    border-radius: 0PX !important;
+}
+
+.sebd-btn {
+    color: #FFF;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    background: #C50;
+    padding: 13px 30px;
+    border-radius: 0px;
+    margin-bottom: 30px;
+
+}
+
+.sebd-btn:hover {
+    color: #FFF;
+    background: rgb(173, 73, 1);
+}
+
+.us-bg {
+    border: 1px solid #D9D9D9;
+    background: #F8F8F8;
+    padding: 20px;
+}
+
+.us-bg h3 {
+    color: #1D3656;
+    font-family: 'Roboto';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 134.406%;
+    padding-bottom: 30px;
+}
+
+.all-map {
+    display: flex;
+}
+
+.sec-map-icon {
+    color: #C50;
+    font-size: 20px;
+    padding-right: 20px;
+    padding-top: 9px;
+}
+
+.sec-location {
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+}
+
+.hero-bg2-1 {
+    background-image: url(../images/Activities-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 190px 40px 100px 40px;
+    margin-top: -140px;
+
+}
+
+.hero-bg2-2 {
+    background-image: url(../images/Membership-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 190px 40px 100px 40px;
+    margin-top: -140px;
+
+}
+
+.hero-bg2-3 {
+    background-image: url(../images/package-bgg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 190px 40px 100px 40px;
+    margin-top: -140px;
+}
+
+.hero-bg2-4 {
+    background-image: url(../images/Certifications-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 190px 40px 100px 40px;
+    margin-top: -140px;
+}
+
+.hero-bg2-5 {
+    background-image: url(../images/partner-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 190px 40px 100px 40px;
+    margin-top: -140px;
+}
+
+.hero-bg2-6 {
+    background-image: url(../images/Testimonials-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 190px 40px 100px 40px;
+    margin-top: -140px;
+
+}
+
+.hero-bg2-7 {
+    background-image: url(../images/Contact-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 190px 40px 100px 40px;
+    margin-top: -140px;
 }
