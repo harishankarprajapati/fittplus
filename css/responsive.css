@@ -180,7 +180,7 @@ a.nav-link.px-4.text-light , a.nav-link.dropdown-toggle.text-light{
   display: none;
 }
 .sec-h-btn , .sec-h-btn2{
-  padding: 7px 6px;
+  padding: 7px 11px;
   font-size: 11px;
   border-radius: 0px !important;
 }
@@ -236,6 +236,7 @@ a.nav-link.px-4.text-light, a.nav-link.dropdown-toggle.text-light {
 }
 .price-text {
   margin-bottom: 50px;
+  padding: 30px 10px !important;
 }
 .sec-ss h4 {
   color: #000;
