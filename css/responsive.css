@@ -374,5 +374,18 @@ div#selider1 .owl-stage-outer {
 .benefit-bg ol li {
   font-size: 18px;
 }
+.sec2-policy{
+  padding: 40px 10px !important;
+}
+.sec-policy2 {
+  font-size: 50px;
+  line-height: 60px;
+}
+.sec-line-pol , .secli{
+  font-size: 18px;
+}
+ol.m-0.p-0 {
+  padding: 10px 20px !important;
+}
 }
 

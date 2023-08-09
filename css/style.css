@@ -934,3 +934,26 @@ ul.dropdown-menu.show {
     width: 70%;
     margin: auto;
 }
+.sec-policy{
+    padding: 80px 0px !important;
+}
+.sec2-policy{
+    padding: 80px 0px !important;
+}
+.sec-policy2{
+    color: #000;
+    text-align: center;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 90%;
+    padding-bottom: 30px;
+    text-transform: uppercase;
+}
+.sec-line-pol{
+    font-size: 20px;
+}
+.secli{
+    font-size: 20px;
+    font-weight: 500;
+}
