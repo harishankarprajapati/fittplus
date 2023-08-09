@@ -168,6 +168,7 @@ a.nav-link.px-4.text-light , a.nav-link.dropdown-toggle.text-light{
 a.navbar-brand {
   width: 66% !important;
 }
+
 button.navbar-toggler {
   background: #ffff;
 }
@@ -333,5 +334,8 @@ table.table {
   padding-top: 40px;
   width: 100%;
   margin: auto;
+}
+div#selider1 .owl-stage-outer {
+  padding-top: 0px !important;
 }
 }
