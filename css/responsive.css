@@ -1,3 +1,22 @@
+@media only screen and (max-width:1440px) {
+
+a.nav-link.px-4.text-light {
+  font-size: 14px ;
+}
+a.navbar-brand {
+  width: 270px;
+}
+}
+
+
+
+
+
+
+
+
+
+
 /* -------1920--------- */
 
 @media only screen and (min-width:1920px) {
@@ -356,3 +375,4 @@ div#selider1 .owl-stage-outer {
   font-size: 18px;
 }
 }
+
