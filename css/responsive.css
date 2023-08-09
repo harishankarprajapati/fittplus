@@ -93,6 +93,7 @@ a.nav-link.px-4.text-light , a.nav-link.dropdown-toggle.text-light{
 }
 .train-bg h1{
   font-size: 45px;
+  padding-top: 0px;
 }
 .nuber-bg h1 , .founder-bg h1{
   font-size: 80px;

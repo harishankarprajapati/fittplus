@@ -247,22 +247,25 @@
 }
 #slider2 .owl-nav {
     text-align: center;
-    font-size: 40px;
+    font-size: 38px;
     color: #fff;
-    margin-top: -125px;
+    margin-top: -80px;
     position: relative;
     z-index: 99;
 }
 #slider2 button.owl-prev{
-    width: 50px;
-    height: 57px;
+    width: 60px;
+    height: 60px;
     background: #C50 !important;
     border-right: 1px solid #fff;
 }
 #slider2 button.owl-next{
-    width: 50px;
-    height: 57px;
+    width: 60px;
+    height: 60px;
     background: #C50 !important;
+}
+#slider2 button.owl-prev:hover , #slider2 button.owl-next:hover{
+    background: #000 !important;
 }
 .three-slider .owl-dots {
     text-align: center;
@@ -298,4 +301,7 @@
 }
 div#selider1 .owl-stage-outer {
     padding-top: 100px !important;
+}
+div#selider3 {
+    padding-bottom: 100px !important;
 }
