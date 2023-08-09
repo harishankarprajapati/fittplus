@@ -84,7 +84,9 @@ a.nav-link.px-4.text-light , a.nav-link.dropdown-toggle.text-light{
 
 
 @media only screen and (max-width:767px) {
-
+  .text-fre {
+    padding-top: 30px;
+}
   .container-fluid.sec-menu-bgg {
     background: rgb(9,9,9);
 }
@@ -92,7 +94,7 @@ a.nav-link.px-4.text-light , a.nav-link.dropdown-toggle.text-light{
   font-size: 55px;
 }
 .train-bg h1{
-  font-size: 45px;
+  font-size: 30px;
   padding-top: 0px;
 }
 .nuber-bg h1 , .founder-bg h1{
@@ -140,6 +142,7 @@ a.nav-link.px-4.text-light , a.nav-link.dropdown-toggle.text-light{
   color: #FFF;
   font-size: 40px;
   margin-bottom: 30px;
+  padding-left: 20px;
 }
 .slider-text h5 {
   padding-top: 10px;
@@ -163,7 +166,7 @@ a.nav-link.px-4.text-light , a.nav-link.dropdown-toggle.text-light{
   border-radius: 0px !important;
 }
 .hero-bg , .hero-bg2 , .hero-bg2-1 , .hero-bg2-2 , .hero-bg2-3 , .hero-bg2-4 , .hero-bg2-5 , .hero-bg2-6 , .hero-bg2-7{
-  padding: 190px 10px 85px 10px;
+  padding: 190px 11px 85px 18px;
   margin-top: -160px;
 }
 a.navbar-brand {
@@ -179,8 +182,8 @@ button.navbar-toggler {
   font-weight: 400;
   text-transform: capitalize;
 }
-a.nav-link.px-4.text-light {
-  font-size: 17px;
+a.nav-link.px-4.text-light, a.nav-link.dropdown-toggle.text-light {
+  font-size: 17px !important;
   padding: 15px 0px !important;
   border-bottom: 1px solid;
 }
@@ -207,7 +210,7 @@ a.nav-link.px-4.text-light {
   font-size: 30px;
 }
 .price-bg , .price-bg2 {
-  padding: 0px 0px;
+  padding: 30px 0px;
 }
 .price-bg2 h1, .price-bg5 h1 , .price-bg52 h1 {
   font-size: 30px;
@@ -267,7 +270,10 @@ a.nav-link.px-4.text-light {
 .activ-bg p {
   width: 100%;
   margin: auto;
-  padding: 0px 5px;
+  padding: 0px 15px;
+}
+.courses-bg {
+  padding: 60px 10px;
 }
 .work-h {
   color: #FFF;
@@ -338,5 +344,15 @@ table.table {
 }
 div#selider1 .owl-stage-outer {
   padding-top: 0px !important;
+}
+.bener-bg {
+  padding: 30px 10px;
+}
+
+.benefit-bg h4 {
+  font-size: 30px;
+}
+.benefit-bg ol li {
+  font-size: 18px;
 }
 }
