@@ -652,7 +652,7 @@ td {
     background-repeat: no-repeat;
     background-size: cover;
     padding: 40px;
-    background-position: bottom;
+    background-position:top;
 }
 
 .benefit-bg h4 {
