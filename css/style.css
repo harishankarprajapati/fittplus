@@ -1052,4 +1052,16 @@ a{
     color: #707070;
     font-size: 13px;
   }
-
+  .sec-ss2 {
+    display: grid;
+    justify-content: center;
+    height: 200px;
+    align-content: center;
+}
+.sec-all-rev{
+    background-color: #C50;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 25px;
+    font-weight: 700;
+}
