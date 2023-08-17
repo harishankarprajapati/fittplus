@@ -113,6 +113,7 @@ a.nav-link.px-4.text-light {
 .sec-abhome p {
     color: #FFF;
     font-size: 20px;
+    text-align: justify;
     padding: 30px 0px 0px 0px !important;
 }
 
@@ -221,11 +222,14 @@ a.nav-link.px-4.text-light {
 
 .founder-bg h2 {
     color: #FFF;
-    font-size: 70px;
+    font-size: 60px;
     font-style: normal;
     font-weight: 700;
     text-transform: uppercase;
     margin-bottom: -167px;
+}
+.sec-center-f{
+    justify-content: center;
 }
 
 .slider-text h5 {
@@ -259,6 +263,14 @@ a.nav-link.px-4.text-light {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+}
+.price-bg h1 span{
+    color: #FFF;
+font-size: 35px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+vertical-align: middle;
 }
 
 .price-text h6 {
