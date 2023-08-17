@@ -287,7 +287,11 @@ a.nav-link.px-4.text-light, a.nav-link.dropdown-toggle.text-light {
 }
 .our-h {
   color: #FFF;
-  font-size: 33px;
+  font-size: 24px;
+}
+.our-p {
+  text-align: center;
+  font-size: 18px;
 }
 .nuber-bg p {
   width: 100%;
