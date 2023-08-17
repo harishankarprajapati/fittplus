@@ -87,6 +87,9 @@ a.nav-link.px-4.text-light , a.nav-link.dropdown-toggle.text-light{
   font-size: 20px;
   line-height: 42.5px;
 }
+.sec-hright {
+  height: 250px;
+}
 }
 
 
@@ -105,6 +108,9 @@ a.nav-link.px-4.text-light , a.nav-link.dropdown-toggle.text-light{
 @media only screen and (max-width:767px) {
   .text-fre {
     padding-top: 30px;
+}
+.sec-hright , .sec-hright2 , .sec-hright3 , .sec-hright3p {
+  height: auto;
 }
   .container-fluid.sec-menu-bgg {
     background: rgb(9,9,9);
