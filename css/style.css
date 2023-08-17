@@ -654,6 +654,14 @@ td {
     padding: 40px;
     background-position:top;
 }
+.bener-bg7 {
+    background-image: url(../images/hero2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px;
+    background-position:top;
+}
+
 
 .benefit-bg h4 {
     color: #FFF;
