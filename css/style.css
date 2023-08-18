@@ -54,7 +54,9 @@ a.nav-link.px-4.text-light {
     font-weight: 400;
     text-transform: uppercase;
 }
-
+div#slider2 {
+    padding-top: 50px;
+}
 .sec-cont {
     border: 2px solid #C50;
     background: rgba(217, 217, 217, 0.00);
